@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductDetail">
+    <ImageView
+        android:layout_marginTop="29dp"
+        android:id="@+id/imgdetail"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:scaleType="center"/>
+    <TextView
+        android:id="@+id/prodDetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgdetail"
+        android:text="Prodcut NAme"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/ProddesDtl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prodDetName"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Prodcut Desc"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/priceDtl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ProddesDtl"
+        android:text="Prodcut Price"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+ <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+     android:id="@+id/addcartprod"
+     android:layout_width="300dp"
+     android:layout_height="100dp"
+     android:elevation="6dp"
+     app:textSize="16sp"
+     app:textColor="@color/back"
+     android:layout_below="@id/priceDtl"
+     android:layout_centerHorizontal="true"
+     app:initialNumber="1"
+     app:finalNumber="10"
+     android:gravity="center"
+     android:layout_marginTop="10dp"
+
+     >
+
+
+
+ </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/btn_cart"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:elevation="6dp"-->
+        <!--android:src="@drawable/nav_cart"-->
+        <!--app:backgroundTint="@android:color/white"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"/>-->
+    <Button
+        android:id="@+id/addtocart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="15sp"
+        android:text="Add To Cart"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent1"
+        />
+
+
+
+
+
+</RelativeLayout>

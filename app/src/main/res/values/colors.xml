@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FA5490</color>
+    <color name="back">#C093F3</color>
+    <color name="text">#0F0C13</color>
+    <color name="tvvv">#FAE848</color>
+    <color name="radaa">#57FA57</color>
+    <color name="newse">#F17B5D</color>
+    <color name="cloth">#661866</color>
+    <color name="mobileee">#009688</color>
+    <color name="advert">#03A9F4</color>
+    <color name="catback">#D2F4FA</color>
+    <color name="colorAccent1">#972428</color>
+</resources>
